@@ -2686,3 +2686,11 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 2025-05-22T15:55:16.186+08:00  INFO 15940 --- [springboot-jpa] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-05-22T15:55:16.186+08:00  INFO 15940 --- [springboot-jpa] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-05-22T15:55:16.188+08:00  INFO 15940 --- [springboot-jpa] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-22T17:28:58.064+08:00  WARN 15940 --- [springboot-jpa] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m14s551ms639µs).
+2025-05-22T19:45:39.586+08:00  WARN 15940 --- [springboot-jpa] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h16m41s527ms21µs700ns).
+2025-05-22T19:55:09.172+08:00  INFO 15940 --- [springboot-jpa] [RMI TCP Connection(81)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-22T19:55:09.346+08:00  INFO 15940 --- [springboot-jpa] [RMI TCP Connection(81)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22T19:55:09.381+08:00  INFO 15940 --- [springboot-jpa] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-22T19:55:09.434+08:00  INFO 15940 --- [springboot-jpa] [RMI TCP Connection(81)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-22T19:55:09.498+08:00  INFO 15940 --- [springboot-jpa] [RMI TCP Connection(81)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-22T19:55:09.511+08:00  INFO 15940 --- [springboot-jpa] [RMI TCP Connection(81)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
